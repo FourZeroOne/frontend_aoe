@@ -1,7 +1,7 @@
 version: 0.2
 env:
   variables:
-    BUCKET_PATH: "000020-simon/frontend_aoe"
+    BUCKET_PATH: "000020-simon/aoe"
     BRANCH: "master"
 phases:
     install:
