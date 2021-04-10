@@ -10,7 +10,6 @@ phases:
     pre_build:
         commands:
             - BRANCH=$(echo $CODEBUILD_WEBHOOK_HEAD_REF | sed 's/refs\/heads\///')
-            - sed -i "s/__BRANCH__/$BRANCH/" ""
     build:
         commands:
             - npm install
