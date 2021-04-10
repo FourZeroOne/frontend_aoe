@@ -3,7 +3,6 @@ env:
   variables:
     BUCKET_PATH: "000020-simon/frontend_aoe"
     BRANCH: "master"
-​
 phases:
     install:
         runtime-versions:
