@@ -1,0 +1,20 @@
+version: 0.2
+env:
+  variables:
+    BUCKET_PATH: "000020-simon/aoe"
+    BRANCH: "master"
+​
+phases:
+    install:
+        runtime-versions:
+            nodejs: 14
+    pre_build:
+        commands:
+            - BRANCH=$(echo $CODEBUILD_WEBHOOK_HEAD_REF | sed 's/refs\/heads\///')
+    build:
+        commands:
+            - npm install
+            - npm run build
+    post_build:
+        commands:
+            - aws s3 cp dist/ s3://frontend--websites/$BUCKET_PATH/$BRANCH/ --recursive
