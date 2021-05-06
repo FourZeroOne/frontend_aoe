@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <router-link to="/">
             <a class="navbar-brand" href="#">
-                Area of <br/> Änderung
+                Area of <br/> Education
             </a>
         </router-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -99,6 +99,7 @@ export default {};
             font-weight: 800;
             font-size: 48px;
             line-height: 60px;
+            text-align: center;
         }
         a:hover {
             color: #2E2E3A !important;

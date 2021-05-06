@@ -1,24 +1,17 @@
 <template>
     <div class="container">
         <div class="col-12">
-            <h1 class="header">Barrierefreiheit</h1>
-            <div class="iframe_container">
-                <iframe src="https://www.youtube.com/embed/zm0ijcWXxkk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <h3 class="subheader-text">Erklärungstext</h3>
+            <h1 class="header">Barrierefreiheit im Gaming</h1>
             <p class="text">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-                amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
-                feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-                delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+                Computer- und Videospiele sind heute ein wichtiger Bestandteil des soziokulturellen Lebens und gehören zum
+                Alltag dazu. Die Wenigstens bedenken dabei, dass Menschen mit einer Behinderung in diesem Bereich an der Gesellschaft
+                aufgrund fehlender Barrierefreiheit in Computerspielen oftmals nicht teilhaben können.<br/>
+                In Deutschland allein leben über zehn Millionen Menschen mit anerkannten Behinderungen. Die oft hohen Anforderungen
+                an die Fähigkeiten und Sinneswahrnehmungen bei Computerspielen können die Nutzung für viele Menschen erschweren oder
+                unmöglich machen. Für Menschen mit einer visuellen, auditiven, kognitiven, motorischen und/oder sprachlichen
+                Einschränkung sind die Hürden oft noch viel größer.<br/>
+                Dieser Stream zum Thema Barrierefreiheit bei Computerspielen soll auf die genannten Aspekte aufmerksam machen und
+                die Zuschauer durch Lösungsvorschläge und Aufklärung zum Handeln zu bewegen.
             </p>
             <h2 class="subheader">Stream-Interview mit Untertiteln</h2>
             <div class="iframe_container">
@@ -70,6 +63,7 @@ export default {
     border: none !important
 }
 .header {
+    margin-top: 25px;
     text-align: center !important;
     font-size: 40px !important;
     color: #009260 !important;
@@ -88,6 +82,8 @@ export default {
     margin-bottom: 20px;
 }
 .text {
+    margin-top: 50px;
+    font-size: 18px;
     text-align: justify;
     margin-bottom: 10px;
 }

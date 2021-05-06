@@ -1,24 +1,15 @@
 <template>
     <div class="container">
         <div class="col-12">
-            <h1 class="header">E-Sport & Mental-Health</h1>
-            <div class="iframe_container">
-                <iframe src="https://www.youtube.com/embed/zm0ijcWXxkk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <h3 class="subheader-text">Erklärungstext</h3>
+            <h1 class="header">Frauen in Gaming</h1>
             <p class="text">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-                amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
-                feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-                delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+                In der jüngsten Mediengeschichte spielt vorurteilsfreie Repräsentation eine immer größere Rolle. Auch im noch jungen
+                Medium der Videospiele gibt es eine rasante Entwicklung in dieser Hinsicht. Die Darstellung von weiblichen Charakteren
+                hat sich über die Jahrzehnte sehr verändert. <br/>
+                In diesem AoE-Stream wird dabei ein Blick auf die vielleicht nicht offensichtlichsten Spiele geworfen, um zur
+                Diskussion zu dem Thema anzuregen. Zudem wird auch die Rolle von Gamerinnen zum Beispiel im E-Sport mit einbezogen.
+                Wird man als Frau (immer noch) anders behandelt? Was für Spiele wirken „empowering“ auf Gamerinnen? Oder was macht
+                einen „guten“ weiblichen Charakter überhaupt aus? Diese und mehr Fragen sollen besprochen und diskutiert werden.
             </p>
             <h2 class="subheader">Stream-Interview mit Untertiteln</h2>
             <div class="iframe_container">
@@ -73,6 +64,7 @@ iframe {
     border: none !important
 }
 .header {
+    margin-top: 25px;
     text-align: center !important;
     font-size: 40px !important;
     color: #009260 !important;
@@ -91,6 +83,8 @@ iframe {
     margin-bottom: 20px;
 }
 .text {
+    margin-top: 50px;
+    font-size: 18px;
     text-align: justify;
     margin-bottom: 10px;
 }

@@ -118,6 +118,7 @@ export default {
     opacity: 1;
 }
 .header {
+    margin-top: 25px;
     text-align: center !important;
     font-size: 40px !important;
     color: #009260 !important;

@@ -1,24 +1,13 @@
 <template>
     <div class="container">
         <div class="col-12">
-            <h1 class="header">Barrierefreiheit im Gaming</h1>
-            <div class="iframe_container">
-                <iframe src="https://www.youtube.com/embed/zm0ijcWXxkk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <h3 class="subheader-text">Erklärungstext</h3>
+            <h1 class="header">Mental Health & E-Sport</h1>
             <p class="text">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-                amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
-                feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-                delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+                Mental Health Probleme rücken immer mehr in den Fokus der Gesellschaft. Auch im E-Sport ist dieses Thema aktuell viel
+                diskutiert. Hierbei sprechen viele sogar von einem der wichtigsten Aspekte im E-Sport. Im Zeichen des „Mental Health
+                Awareness Month“ sprechen wir an, was es für Probleme bezüglich Mental Health im E-Sport gibt, wie man damit umgehen
+                kann und wie diese Probleme verhindert werden können. Hierbei sprechen wir mit unseren Gästen über ihre Erfahrungen zu
+                diesem Thema und tauchen tiefer in den E-Sport im Spiel League of Legends ein.
             </p>
             <h2 class="subheader">Stream-Interview mit Untertiteln</h2>
             <div class="iframe_container">
@@ -68,6 +57,7 @@ export default {
     margin: 0 auto;
 }
 .header {
+    margin-top: 25px;
     text-align: center !important;
     font-size: 40px !important;
     color: #009260 !important;
@@ -86,6 +76,8 @@ export default {
     margin-bottom: 20px;
 }
 .text {
+    margin-top: 50px;
+    font-size: 18px;
     text-align: justify;
     margin-bottom: 10px;
 }

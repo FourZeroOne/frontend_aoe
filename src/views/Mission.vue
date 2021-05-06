@@ -1,20 +1,16 @@
 <template>
     <div class="container">
         <div class="col-12">
-            <h1 class="subheader">Unser Ziel</h1>
+            <h1 class="header">Über uns</h1>
             <p class="text">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-                amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
-                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
-                feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-                delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+                Area of Education (kurz AoE) ist ein Educational Stream bei dem wir über Probleme, beziehungsweise aktuelle
+                Themen, in und um den Gaming-Bereich sprechen. Hierbei wollen wir nicht nur aufklärend und lehrreich sein,
+                sondern auch unterhaltsam. Über drei Wochen verteilt wollen wir über die Themen Mental Health im E-Sport, Frauen
+                im Gaming und Barrierefreiheit im Gaming aufklären. Diese Themen haben wir gewählt, da sie in der Gaming-Welt
+                dauerhaftangesprochen werden und darüber diskutiert wird. Jeder von uns hat sich mit mindestens einem der Themen
+                schon intensiv auseinandergesetzt oder ist selbst davon betroffen. Deshalb ist es für uns auch eine
+                Herzensangelegenheit, dieses Projekt umzusetzen. Falls Ihr mehr über die einzelnen Themen erfahren wollt, dann
+                schaut doch gerne Mal auf den Pages der Website zu den einzelnen Themen vorbei!
             </p>
         </div>
     </div>
@@ -41,6 +37,7 @@ export default {
     margin: 0 auto;
 }
 .header {
+    margin-top: 25px;
     text-align: center !important;
     font-size: 40px !important;
     color: #009260 !important;
@@ -59,6 +56,8 @@ export default {
     margin-bottom: 20px;
 }
 .text {
+    margin-top: 50px;
+    font-size: 18px;
     text-align: justify;
     margin-bottom: 10px;
 }
