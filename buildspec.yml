@@ -1,9 +1,8 @@
 version: 0.2
 env:
   variables:
-    BUCKET_PATH: "000020-simon/frontend_aoe"
+    BUCKET_PATH: "000020-simon/aoe"
     BRANCH: "master"
-​
 phases:
     install:
         runtime-versions:
@@ -11,7 +10,6 @@ phases:
     pre_build:
         commands:
             - BRANCH=$(echo $CODEBUILD_WEBHOOK_HEAD_REF | sed 's/refs\/heads\///')
-            - sed -i "s/__BRANCH__/$BRANCH/" ""
     build:
         commands:
             - npm install
