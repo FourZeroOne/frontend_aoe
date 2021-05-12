@@ -2,69 +2,61 @@
     <div class="container">
         <div class="col-12">
             <h1 class="header">Das sind wir</h1>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="container_profile">
-                        <div class="container_img">
-                            <div class="profile_info">
-                                <div class="text-wrapper">
-                                    <div class="profile_name">
-                                        Raul
-                                    </div>
-                                    <div class="profile_content">
-                                        Frauen im Gaming
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="row profile">
+                <div class="col-md-3">
+                    <div class="container_image">
+                        <div class="profile_image" style="background-image: url('https://esport.uni-bayreuth.de/wp-content/uploads/2020/06/2Nils-150x150.png';"></div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="container_profile">
-                        <div class="container_img">
-                            <div class="profile_info">
-                                <div class="text-wrapper">
-                                    <div class="profile_name">
-                                        Anna
-                                    </div>
-                                    <div class="profile_content">
-                                        Serious Games
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-9">
+                    <div class="profile-name">
+                        Raul Mendieta Olivares: Frauen im Gaming
+                    </div>
+                    <div class="profile-text">
+                        Hola, ich bin Nils, bin 22 Jahre alt und studiere Medienwissenschaft an der Uni Bayreuth,
+                        komme ursprünglich aus dem Vogtland und liebe Games. <br/>
+                        Vor allem Esporttitel sind bei mir hoch angesehen, dazu gehören zum Beispiel League of Legends, CSGO oder
+                        Valorant aber auch viele andere. Die meiste Zeit findet man mich bei LoL,
+                        ich spielte dort seit dem Beginn meines Studiums in der Uniliga, wechselte zwischendurch auch
+                        zum Coaching. Jetzt spiele ich wieder Uniliga und bin in der Orga des Esport UBT beteiligt.
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="container_profile">
-                        <div class="container_img">
-                            <div class="profile_info">
-                                <div class="text-wrapper">
-                                    <div class="profile_name">
-                                        Kha Anh
-                                    </div>
-                                    <div class="profile_content">
-                                        Barrierefreiheit im Gaming
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            </div>
+            <div class="row profile">
+                <div class="col-md-3">
+                    <div class="container_image">
+                        <div class="profile_image" style="background-image: url('https://esport.uni-bayreuth.de/wp-content/uploads/2020/06/2Nils-150x150.png';"></div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="container_profile">
-                        <div class="container_img">
-                            <div class="profile_info">
-                                <div class="text-wrapper">
-                                    <div class="profile_name">
-                                        Nils
-                                    </div>
-                                    <div class="profile_content">
-                                        Mental-Health & E-Sport
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-9">
+                    <div class="profile-name">
+                        Nils Braxmeier: Mental Health im E-Sport
+                    </div>
+                    <div class="profile-text">
+                        Hola, ich bin Nils, bin 22 Jahre alt und studiere Medienwissenschaft an der Uni Bayreuth,
+                        komme ursprünglich aus dem Vogtland und liebe Games. <br/>
+                        Vor allem Esporttitel sind bei mir hoch angesehen, dazu gehören zum Beispiel League of Legends, CSGO oder
+                        Valorant aber auch viele andere. Die meiste Zeit findet man mich bei LoL,
+                        ich spielte dort seit dem Beginn meines Studiums in der Uniliga, wechselte zwischendurch auch
+                        zum Coaching. Jetzt spiele ich wieder Uniliga und bin in der Orga des Esport UBT beteiligt.
+                    </div>
+                </div>
+            </div>
+            <div class="row profile">
+                <div class="col-md-3">
+                    <div class="container_image">
+                        <div class="profile_image" style="background-image: url('https://esport.uni-bayreuth.de/wp-content/uploads/2021/03/Bewerbungsfoto_2020_Mai-1-150x150.png';"></div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="profile-name">
+                        Kha Anh Thai: Barrierefreiheit im Gaming
+                    </div>
+                    <div class="profile-text">
+                        Hi, ich bin Kha Anh, 22 Jahre alt und studiere Medienwissenschaft und Medienpraxis an der Universität Bayreuth.
+                        In meiner Freizeit findet man mich unter den IGN "smol" meistens bei Valorant. Mein Thema "Barrierefreiheit
+                        im Gaming" liegt mir besonders am Herzen, da Videospiele generell eine große Rolle in meinem Leben darstellen
+                        und ich finde, dass jede*r die Möglichkeit haben sollte an dieser wundervollen Gaming-Welt teilhaben zu können!
                     </div>
                 </div>
             </div>
@@ -77,79 +69,28 @@ export default {
 };
 </script>
 <style>
-.text-wrapper {
-    width: 100%;
-}
-.profile_info {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(125, 125, 125, 0.7);
-    opacity: 0;
-    transition: ease-in-out .5s;
-    display: flex;
-    align-items: center;
-    border-radius: 50%;
-}
-.profile_content {
-    font-size: 34px;
-}
-.profile_name {
-    font-size: 44px;
-    text-transform: uppercase;
-    font-weight: 550;
-}
-.container_profile {
-    margin-top: 25px;
-}
-.container_img {
-    width: 300px;
-    height: 300px;
-    background-color:#009260;
-    display: block;
-    margin: 0 auto;
-    transition: .3s;
-    text-align: center;
-    border-radius: 50%;
-}
-.container_img:hover {
-    cursor: pointer;
-}
-.container_img:hover .profile_info {
-    opacity: 1;
+.profile {
+    margin-bottom: 75px;
 }
 .header {
-    margin-top: 25px;
-    text-align: center !important;
-    font-size: 40px !important;
-    color: #009260 !important;
-    font-weight: 550 !important;
+    margin-bottom: 50px;
 }
-.subheader {
-    text-align: center;
-    font-size: 26px;
-    color: #2E2E3A;
-    padding-top: 50px;
-    margin-bottom: 20px;
+.profile-name {
+    font-weight: 550;
+    margin-bottom: 15px;
+    font-size: 22px;
 }
-.subheader-text {
-    font-size: 22px !important;
-    padding-top: 25px;
-    margin-bottom: 20px;
+.container_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
-.text {
-    text-align: justify;
-    margin-bottom: 10px;
-}
-.container {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.info-link {
-    color: #009260;
-    transition: .3s;
-}
-.info-link:hover {
-    color: black;
-    text-decoration: none;;
+.profile_image {
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    border-radius: 50%;
+    margin-bottom: 15px;
 }
 </style>

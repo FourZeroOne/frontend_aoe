@@ -4,7 +4,6 @@ import Home from '@/views/Home.vue'
 import ESport from '@/views/ESport.vue'
 import Barrierefreiheit from '@/views/Barrierefreiheit.vue'
 import FrauenGaming from '@/views/FrauenGaming.vue'
-import SeriousGames from '@/views/SeriousGames.vue'
 import Team from '@/views/Team.vue'
 import Contact from '@/views/Contact.vue'
 import Mission from '@/views/Mission.vue'
@@ -22,11 +21,6 @@ const routes = [
         path: '/themen/frauen-im-gaming',
         name: 'FrauenGaming',
         component: FrauenGaming
-    },
-    {
-        path: '/themen/serious-games',
-        name: 'SeriousGames',
-        component: SeriousGames
     },
     {
         path: '/team',

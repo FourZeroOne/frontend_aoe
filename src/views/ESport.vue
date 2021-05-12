@@ -9,10 +9,10 @@
                 kann und wie diese Probleme verhindert werden können. Hierbei sprechen wir mit unseren Gästen über ihre Erfahrungen zu
                 diesem Thema und tauchen tiefer in den E-Sport im Spiel League of Legends ein.
             </p>
-            <h2 class="subheader">Stream-Interview mit Untertiteln</h2>
-            <div class="iframe_container">
-                <iframe src="https://www.youtube.com/embed/zm0ijcWXxkk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            <h2 class="subheader" style="text-align: left;">Unser Stream zum Thema:</h2>
+            <p class="text" style="margin-top: 25px;">
+                Frauen im Gaming: 05.06.2021: - 19Uhr, Moderator: Raul "Edgefox" Mendieta Olivares
+            </p>
             <p class="text">
                 Falls Du dich weiter über das Thema informieren möchtest findest Du hier eine Liste von Artikeln,
                 wissenschaftlichen Texten und Organisationen, die wir für unsere Recherche genutzt haben oder besonders

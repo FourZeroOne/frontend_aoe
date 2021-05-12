@@ -1,5 +1,5 @@
 <template>
-    <div style="min-height: 100%; margin-bottom: -50px; padding-bottom: 50px;">
+    <div style="min-height: 100%;">
         <app-header></app-header>
         <slot></slot>
         <app-footer></app-footer>

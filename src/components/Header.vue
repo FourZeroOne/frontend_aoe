@@ -17,7 +17,6 @@
                         <li><router-link to="/themen/esport"><a class="dropdown-item" href="#">E-Sport & Mental-Health</a></router-link></li>
                         <li><router-link to="/themen/barrierefreiheit"><a class="dropdown-item" href="#">Barrierefreiheit im Gaming</a></router-link></li>
                         <li><router-link to="/themen/frauen-im-gaming"><a class="dropdown-item" href="#">Frauen im Gaming</a></router-link></li>
-                        <li><router-link to="/themen/serious-games"><a class="dropdown-item" href="#">Serious Games</a></router-link></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown hide-mobile">
@@ -44,7 +43,6 @@
                         <router-link to="/themen/esport"><a class="dropdown-item" href="#">E-Sport & Mental-Health</a></router-link>
                         <router-link to="/themen/barrierefreiheit"><a class="dropdown-item" href="#">Barrierefreiheit im Gaming</a></router-link>
                         <router-link to="/themen/frauen-im-gaming"><a class="dropdown-item" href="#">Frauen im Gaming</a></router-link>
-                        <router-link to="/themen/serious-games"><a class="dropdown-item" href="#">Serious Games</a></router-link>
                     </div>
                 </li>
                 <li class="nav-item active"><router-link to="/kontakt"><a class="nav-link" href="#">Kontakt</a></router-link></li>

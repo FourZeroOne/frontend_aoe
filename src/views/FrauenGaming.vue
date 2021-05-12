@@ -11,8 +11,11 @@
                 Wird man als Frau (immer noch) anders behandelt? Was für Spiele wirken „empowering“ auf Gamerinnen? Oder was macht
                 einen „guten“ weiblichen Charakter überhaupt aus? Diese und mehr Fragen sollen besprochen und diskutiert werden.
             </p>
-            <h2 class="subheader">Stream-Interview mit Untertiteln</h2>
-            <div class="iframe_container">
+            <h2 class="subheader" style="text-align: left;">Unser Stream zum Thema:</h2>
+            <p class="text" style="margin-top: 25px;">
+                Mental Health im E-Sport: 12.06.2021, 19Uhr, Moderator: Nils "Braxe" Braxmeier
+            </p>
+            <div class="iframe_container" style="display: none;">
                 <iframe src="https://www.youtube.com/embed/zm0ijcWXxkk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <p class="text">

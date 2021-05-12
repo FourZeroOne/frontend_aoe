@@ -13,10 +13,10 @@
                 Dieser Stream zum Thema Barrierefreiheit bei Computerspielen soll auf die genannten Aspekte aufmerksam machen und
                 die Zuschauer durch Lösungsvorschläge und Aufklärung zum Handeln zu bewegen.
             </p>
-            <h2 class="subheader">Stream-Interview mit Untertiteln</h2>
-            <div class="iframe_container">
-                <iframe src="https://www.youtube.com/embed/zm0ijcWXxkk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            <h2 class="subheader" style="text-align: left;">Unser Stream zum Thema:</h2>
+            <p class="text" style="margin-top: 25px;">
+                Barrierefreiheit im Gaming: 29.05.2021 - 19Uhr , Moderator: Alexander "Windy" Sühring
+            </p>
             <p class="text">
                 Falls Du dich weiter über das Thema informieren möchtest findest Du hier eine Liste von Artikeln,
                 wissenschaftlichen Texten und Organisationen, die wir für unsere Recherche genutzt haben oder besonders
@@ -24,16 +24,13 @@
             </p>
             <ul>
                 <li>
-                    <a class="info-link" href="http://www.link1.com/">Link 1</a>
+                    <a class="info-link" href="https://ablegamers.org/" target="_blank">https://ablegamers.org/</a>
                 </li>
                 <li>
-                    <a class="info-link" href="http://www.link2.com/">Link 2</a>
+                    <a class="info-link" href="http://gameaccessibilityguidelines.com/" target="_blank">http://gameaccessibilityguidelines.com/</a>
                 </li>
                 <li>
-                    <a class="info-link" href="http://www.link3.com/">Link 3</a>
-                </li>
-                <li>
-                    <a class="info-link" href="http://www.link4.com/">Link 4</a>
+                    <a class="info-link" href="https://accessible.games/accessible-player-experiences/" target="_blank">https://accessible.games/accessible-player-experiences/</a>
                 </li>
             </ul>
         </div>
