@@ -8,7 +8,7 @@
                 <h1>Sieh dir hier den aktuellsten Stream an:</h1>
                 <div class="parent_twitch_stream">
                     <iframe
-                        src="https://player.twitch.tv/?channel=areaofeducation&parent=localhost"
+                        src="https://player.twitch.tv/?channel=areaofeducation&parent=areaofeducation.de"
                         allowfullscreen="true"
                     >
                     </iframe>
