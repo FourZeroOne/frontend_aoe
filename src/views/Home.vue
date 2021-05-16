@@ -62,9 +62,9 @@ export default {
     text-align: center !important;
     border: 1px solid #009260;
     border-radius: 5px;
-    padding: 5px 0;
-    background-color: #00925f3b;
-    margin: 10px 0px;
+    padding: 10px 0;
+    background-color: #00925f10;
+    margin: 25px 0px;
 }
 .text-highlighted {
     color: #009260;
@@ -85,7 +85,7 @@ h1, h2 {
 }
 .parent_twitch_stream {
     position: relative;
-    margin: 10px;
+    margin: 10px 0px;
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
