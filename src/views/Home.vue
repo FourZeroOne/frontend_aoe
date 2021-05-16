@@ -13,7 +13,8 @@
                     >
                     </iframe>
                 </div>
-                <h2>Der nächste Stream startet in <span class="text-highlighted">{{ countdown_days }}</span> Tagen, <span class="text-highlighted">{{ countdown_hours }}</span> Stunden, <span class="text-highlighted">{{ countdown_minutes }}</span> Minuten und <span class="text-highlighted">{{ countdown_seconds }}</span> Sekunden, <br/> am 29.05.2021 um 19:00 Uhr</h2>
+                <h2 class="countdown">Der nächste Stream startet in <span class="text-highlighted">{{ countdown_days }}</span> Tagen, <span class="text-highlighted">{{ countdown_hours }}</span> Stunden, <span class="text-highlighted">{{ countdown_minutes }}</span> Minuten und <span class="text-highlighted">{{ countdown_seconds }}</span> Sekunden
+                </h2>
                 <div class="text-info">
                     <span class="text-highlighted">Thema:</span> Barrierefreiheit im Gaming<br/>
                     <span class="text-highlighted">Moderator:</span> Alexander "Windy" Sühring
@@ -57,6 +58,14 @@ export default {
 </script>
 
 <style scoped>
+.countdown {
+    text-align: center !important;
+    border: 1px solid #009260;
+    border-radius: 5px;
+    padding: 5px 0;
+    background-color: #00925f3b;
+    margin: 10px 0px;
+}
 .text-highlighted {
     color: #009260;
 }
