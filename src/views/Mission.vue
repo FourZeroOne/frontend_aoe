@@ -12,13 +12,13 @@
                 Über drei Wochen verteilt wollen wir über folgende Themen berichten:
                 <ul class="eventlist">
                     <li>
-                        <span class="text-highlighted">Barrierefreiheit im Gaming</span> (29.05.2021, 19Uhr), Moderator: Alex Sühring
+                        <span class="text-highlighted">Barrierefreiheit im Gaming</span> (29.05.2021, 19:00 Uhr), Moderator: Alex Sühring
                     </li>
                     <li>
-                        <span class="text-highlighted">Frauen im Gaming</span> (05.06.2021, 19Uhr), Moderator: Raul Mendieta Olivares
+                        <span class="text-highlighted">Frauen im Gaming</span> (05.06.2021, 19:00 Uhr), Moderator: Raul Mendieta Olivares
                     </li>
                     <li>
-                        <span class="text-highlighted">Mental Health im E-Sport</span> (12.06.2021, 19Uhr): Nils Braxmeier
+                        <span class="text-highlighted">Mental Health im E-Sport</span> (12.06.2021, 19:00 Uhr): Nils Braxmeier
                     </li>
                 </ul>
             </p>
