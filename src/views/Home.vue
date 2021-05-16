@@ -13,7 +13,7 @@
                     >
                     </iframe>
                 </div>
-                <h2>Der nächste Stream startet am 29.05.2021 um 19:00 Uhr</h2>
+                <h2>Der nächste Stream startet in <span class="text-highlighted">{{ countdown_days }}</span> Tagen, <span class="text-highlighted">{{ countdown_hours }}</span> Stunden, <span class="text-highlighted">{{ countdown_minutes }}</span> Minuten und <span class="text-highlighted">{{ countdown_seconds }}</span> Sekunden, <br/> am 29.05.2021 um 19:00 Uhr</h2>
                 <div class="text-info">
                     <span class="text-highlighted">Thema:</span> Barrierefreiheit im Gaming<br/>
                     <span class="text-highlighted">Moderator:</span> Alexander "Windy" Sühring
@@ -25,7 +25,35 @@
 
 <script>
 export default {
-};
+    data() {
+        return {
+            countdown_date: new Date("May 29, 2021 19:00:00").getTime(),
+            countdown_days: 0,
+            countdown_hours: 0,
+            countdown_minutes: 0,
+            countdown_seconds: 0
+        }
+    },
+    methods: {
+        calc_countdown: function() {
+            const self = this
+            setInterval(function() {
+                // Get today's date and time
+                var now = new Date().getTime();
+                // Find the distance between now and the count down date
+                var distance = self.countdown_date - now;
+                // Time calculations for days, hours, minutes and seconds
+                self.countdown_days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                self.countdown_hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                self.countdown_minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                self.countdown_seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            }, 1000);
+        }
+    },
+    created() {
+        this.calc_countdown();
+    }
+}
 </script>
 
 <style scoped>

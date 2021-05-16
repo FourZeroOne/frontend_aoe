@@ -49,8 +49,8 @@
             </ul>
         </div>
         <div class="form-inline my-2 my-lg-0 col-brand-icons">
-            <a href="https://twitter.com/iNabber69/status/1379758396933541890/photo/1" target="blank" class="navbar-brand brand-icon"><i class="fab fa-twitch"></i></a>
-            <a href="https://www.youtube.com/watch?v=zm0ijcWXxkk" target="blank" class="navbar-brand brand-icon"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.twitch.tv/areaofeducation" target="_blank" class="navbar-brand brand-icon"><i class="fab fa-twitch"></i></a>
+            <a href="https://www.youtube.com/channel/UCT3gEdACrCYuGvg4z5mnVCA" target="_blank" class="navbar-brand brand-icon"><i class="fab fa-youtube"></i></a>
         </div>
     </nav>
 </template>

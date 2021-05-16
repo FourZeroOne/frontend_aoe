@@ -13,7 +13,7 @@
             </p>
             <h2 class="subheader" style="text-align: left;">Unser Stream zum Thema:</h2>
             <p class="text" style="margin-top: 25px;">
-                Mental Health im E-Sport: 12.06.2021, 19Uhr, Moderator: Nils "Braxe" Braxmeier
+                Frauen im Gaming: 05.06.2021: - 19:00 Uhr, Moderator: Raul "Edgefox" Mendieta Olivares
             </p>
             <div class="iframe_container" style="display: none;">
                 <iframe src="https://www.youtube.com/embed/zm0ijcWXxkk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -25,16 +25,13 @@
             </p>
             <ul>
                 <li>
-                    <a class="info-link" href="http://www.link1.com/">Link 1</a>
+                    <a class="info-link" href="https://esportsinsider.com/2020/08/all-women-esports-teams/" target="_blank">https://esportsinsider.com/2020/08/all-women-esports-teams/</a>
                 </li>
                 <li>
-                    <a class="info-link" href="http://www.link2.com/">Link 2</a>
+                    <a class="info-link" href="https://thenextweb.com/news/why-is-it-so-rare-to-have-a-woman-leading-a-game" target="_blank">https://thenextweb.com/news/why-is-it-so-rare-to-have-a-woman-leading-a-game</a>
                 </li>
                 <li>
-                    <a class="info-link" href="http://www.link3.com/">Link 3</a>
-                </li>
-                <li>
-                    <a class="info-link" href="http://www.link4.com/">Link 4</a>
+                    <a class="info-link" href="https://www.diva-portal.org/smash/get/diva2:720865/FULLTEXT01.pdf" target="_blank">https://www.diva-portal.org/smash/get/diva2:720865/FULLTEXT01.pdf</a>
                 </li>
             </ul>
         </div>

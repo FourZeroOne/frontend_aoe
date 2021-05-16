@@ -2,13 +2,12 @@
     <div class="container" style="padding-top: 50px;">
         <div class="col-12">
             <div class="row">
-                <div class="col-md-6">
-
-                </div>
-                <div class="col-md-6">
-                    <h2>Kontakt</h2>
-                    <p>Email-Adresse: <a class="info-link" href="mailto:info@website.com">info@website.com</a></p>
-                    <form>
+                <div class="col-12">
+                    <h1 class="header">Kontakt</h1>
+                    <p>
+                        Hast du Fragen oder Anregungen? <br/>
+                        Dann kontaktier uns doch einfach unter: <a class="info-link" href="mailto:areaofeducation@outlook.com">areaofeducation@outlook.com</a>!</p>
+                    <form style="display: none;">
                         <div class="form-group">
                             <label for="inputName">Namen eingeben</label>
                             <input type="text" class="form-control" id="inputName">
@@ -22,7 +21,7 @@
                             <input type="text" class="form-control" id="inputSubject">
                         </div>
                         <div class="form-group">
-                            <label for="inputMessage">Betreff eingeben</label>
+                            <label for="inputMessage">Nachricht eingeben</label>
                             <textarea type="text" class="form-control" id="inputSubject" rows="4"></textarea>
                         </div>
                     </form>

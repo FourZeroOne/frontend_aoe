@@ -15,7 +15,7 @@
             </p>
             <h2 class="subheader" style="text-align: left;">Unser Stream zum Thema:</h2>
             <p class="text" style="margin-top: 25px;">
-                Barrierefreiheit im Gaming: 29.05.2021 - 19Uhr , Moderator: Alexander "Windy" Sühring
+                Barrierefreiheit im Gaming: 29.05.2021 - 19:00 Uhr , Moderator: Alexander "Windy" Sühring
             </p>
             <p class="text">
                 Falls Du dich weiter über das Thema informieren möchtest findest Du hier eine Liste von Artikeln,

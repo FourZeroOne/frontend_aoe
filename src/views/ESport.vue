@@ -11,7 +11,7 @@
             </p>
             <h2 class="subheader" style="text-align: left;">Unser Stream zum Thema:</h2>
             <p class="text" style="margin-top: 25px;">
-                Frauen im Gaming: 05.06.2021: - 19Uhr, Moderator: Raul "Edgefox" Mendieta Olivares
+                Mental Health im E-Sport: 12.06.2021, 19:00 Uhr, Moderator: Nils "Braxe" Braxmeier
             </p>
             <p class="text">
                 Falls Du dich weiter über das Thema informieren möchtest findest Du hier eine Liste von Artikeln,
@@ -20,16 +20,13 @@
             </p>
             <ul>
                 <li>
-                    <a class="info-link" href="http://www.link1.com/">Link 1</a>
+                    <a class="info-link" href="https://esportshealthcare.com/" target="_blank">https://esportshealthcare.com/</a>
                 </li>
                 <li>
-                    <a class="info-link" href="http://www.link2.com/">Link 2</a>
+                    <a class="info-link" href="https://cyberathletiks.com/esports-mental-health-tips-for-gamers/" target="_blank">https://cyberathletiks.com/esports-mental-health-tips-for-gamers/</a>
                 </li>
                 <li>
-                    <a class="info-link" href="http://www.link3.com/">Link 3</a>
-                </li>
-                <li>
-                    <a class="info-link" href="http://www.link4.com/">Link 4</a>
+                    <a class="info-link" href="https://www.healthygamer.gg/" target="_blank">https://www.healthygamer.gg/</a>
                 </li>
             </ul>
         </div>

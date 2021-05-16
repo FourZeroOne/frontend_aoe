@@ -5,7 +5,7 @@
             <div class="row profile">
                 <div class="col-md-3">
                     <div class="container_image">
-                        <div class="profile_image" style="background-image: url('https://esport.uni-bayreuth.de/wp-content/uploads/2020/06/2Nils-150x150.png';"></div>
+                        <div class="profile_image" id="img_raul"></div>
                     </div>
                 </div>
                 <div class="col-md-9">
@@ -13,12 +13,13 @@
                         Raul Mendieta Olivares: Frauen im Gaming
                     </div>
                     <div class="profile-text">
-                        Hola, ich bin Nils, bin 22 Jahre alt und studiere Medienwissenschaft an der Uni Bayreuth,
-                        komme ursprünglich aus dem Vogtland und liebe Games. <br/>
-                        Vor allem Esporttitel sind bei mir hoch angesehen, dazu gehören zum Beispiel League of Legends, CSGO oder
-                        Valorant aber auch viele andere. Die meiste Zeit findet man mich bei LoL,
-                        ich spielte dort seit dem Beginn meines Studiums in der Uniliga, wechselte zwischendurch auch
-                        zum Coaching. Jetzt spiele ich wieder Uniliga und bin in der Orga des Esport UBT beteiligt.
+                        Hi, ich bin Raul, 25 Jahre alt und studiere Medienwissenschaft und Medienpraxis an der Uni Bayreuth.
+                        Nerdige Hobbys habe ich zuhauf, aber Videospiele sind eigentlich schon mein ganzes Leben mit dabei.
+                        An Genres spiele ich da fast alles sehr gern. Am meisten Spaß machen mir aber Character Action Games á la
+                        Devil May Cry oder Fighting Games wie Street Fighter. Ab und zu schreibe ich auch für das Dispositiv, den
+                        Medienwissenschafts-Blog der Uni Bayreuth.<br/>
+                        Das Thema Frauen im Gaming habe ich mir ausgesucht, da ich aus einer männlichen Perspektive die Entwicklung
+                        näher kennen lernen will und so sicher auch neue Erfahrungen sammeln kann.
                     </div>
                 </div>
             </div>
@@ -69,6 +70,10 @@ export default {
 };
 </script>
 <style>
+#img_raul {
+    background-image: url('../assets/raul.jpg');
+    background-size: cover;
+}
 .profile {
     margin-bottom: 75px;
 }
