@@ -16,8 +16,8 @@
                 <h2 class="countdown">Der nächste Stream startet in <span class="text-highlighted">{{ countdown_days }}</span> Tagen, <span class="text-highlighted">{{ countdown_hours }}</span> Stunden, <span class="text-highlighted">{{ countdown_minutes }}</span> Minuten und <span class="text-highlighted">{{ countdown_seconds }}</span> Sekunden
                 </h2>
                 <div class="text-info">
-                    <span class="text-highlighted">Thema:</span> Barrierefreiheit im Gaming<br/>
-                    <span class="text-highlighted">Moderator:</span> Alexander "Windy" Sühring
+                    <span class="text-highlighted">Thema:</span> Frauen im Gaming<br/>
+                    <span class="text-highlighted">Moderator:</span> Raul "Edgefox" Mendieta Olivares
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@
 export default {
     data() {
         return {
-            countdown_date: new Date("May 29, 2021 19:00:00").getTime(),
+            countdown_date: new Date("June 05, 2021 19:00:00").getTime(),
             countdown_days: 0,
             countdown_hours: 0,
             countdown_minutes: 0,
