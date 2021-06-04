@@ -6,15 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import BasicLayout from './layouts/Basic'
 
-import HelloWorldSimple from 'jep-package-test'
-
-
-
 Vue.config.productionTip = false
 
 Vue.component('basic-layout', BasicLayout)
-
-Vue.use(HelloWorldSimple)
 
 new Vue({
     router,
