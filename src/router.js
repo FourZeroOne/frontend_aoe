@@ -40,12 +40,38 @@ const routes = [
     {
         path: '/themen/esport',
         name: 'ESport',
-        component: ESport
+        component: ESport,
+        meta: {
+            title: 'Area of Education - Mental Health',
+            metaTags: [
+                {
+                    name: 'description',
+                    content: 'Erfahre mehr über Mental Health & E-Sport.'
+                },
+                {
+                    property: 'og:description',
+                    content: 'Erfahre mehr über Mental Health & E-Sport.'
+                }
+            ]
+        }
     },
     {
         path: '/*',
         name: 'Home',
-        component: Home
+        component: Home,
+        meta: {
+            title: 'Area of Education',
+            metaTags: [
+                {
+                    name: 'description',
+                    content: 'Gaming - wissenschaftlich aufbereitet.'
+                },
+                {
+                    property: 'og:description',
+                    content: 'Gaming - wissenschaftlich aufbereitet.'
+                }
+            ]
+        }
     },
 ]
 
