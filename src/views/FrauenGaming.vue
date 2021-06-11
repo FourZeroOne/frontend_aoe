@@ -40,6 +40,20 @@
 
 <script>
 export default {
+    name: 'App',
+    metaInfo: {
+    meta: [
+      { charset: 'utf-8' },
+      {
+        property: 'og:title',
+        content: 'Das ist unser Test Titel',
+      },
+      {
+        property: 'og:description',
+        content: 'Das ist unsere super Test Description',
+      },
+    ]
+  }
 };
 </script>
 <style>

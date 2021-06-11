@@ -3,10 +3,16 @@ import App from './App.vue'
 import router from './router'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import VueMeta from 'vue-meta'
 
 import BasicLayout from './layouts/Basic'
 
 Vue.config.productionTip = false
+
+Vue.use(VueMeta, {
+    // optional pluginOptions
+    refreshOnceOnNavigation: true
+})
 
 Vue.component('basic-layout', BasicLayout)
 
