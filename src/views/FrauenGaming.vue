@@ -40,23 +40,30 @@
 
 <script>
 export default {
-    name: 'App',
-    metaInfo: {
-    title: 'Supertest',
-    description: 'asd',
-    meta: [
-      {name: 'viewport', content: 'user-scalable=no'},
-      {property: 'og:title', content: 'title'},
-      {property: 'og:type', content: 'article'},
-      {property: 'og:url', content: 'http://c5e3b0ec.ngrok.io/blog/s'},// here it is just ngrok for my test
-      {property: 'og:description', content: 'description'},
-      {property: 'og:image', content: 'https://firebasestorage.googleapis.com/v0/b/dev-blog-2503f.appspot.com/o/postsStorage%2F-KxXdvvLqDHBcxdUfLgn%2Fonfleck?alt=media&token=24a9bf5b-dce2-46e8-b175-fb63f7501c98'},
-      {property: 'twitter:image:src', content: 'https://firebasestorage.googleapis.com/v0/b/dev-blog-2503f.appspot.com/o/postsStorage%2F-KxXdvvLqDHBcxdUfLgn%2Fonfleck?alt=media&token=24a9bf5b-dce2-46e8-b175-fb63f7501c98'},
-      {property: 'og:image:width', content: '1000'},
-      {property: 'og:site_name', content: '41devs | blog'}
-    ]
+  data() {
+    return {
+      logo: require('../assets/logo.png')
+    }
+  },
+  metaInfo() {
+    return {
+      meta: [
+          // Twitter Card
+          {name: 'twitter:card', content: 'summary'},
+          {name: 'twitter:title', content: 'Vue Social Cards Example'},
+          {name: 'twitter:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'},
+          // image must be an absolute path
+          {name: 'twitter:image', content: this.logo},
+          // Facebook OpenGraph
+          {property: 'og:title', content: 'Vue Social Cards Example'},
+          {property: 'og:site_name', content: 'Vue Example'},
+          {property: 'og:type', content: 'website'},
+          {property: 'og:image', content:  this.logo},
+          {property: 'og:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'}
+      ]
+    }
   }
-};
+}
 </script>
 <style>
 .iframe_container {
