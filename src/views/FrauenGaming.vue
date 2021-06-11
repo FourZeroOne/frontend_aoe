@@ -42,6 +42,8 @@
 export default {
     name: 'App',
     metaInfo: {
+    title: 'Supertest',
+    description: 'asd',
     meta: [
       { charset: 'utf-8' },
       {
