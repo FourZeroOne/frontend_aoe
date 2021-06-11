@@ -39,30 +39,25 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      logo: require('../assets/logo.png')
-    }
-  },
-  metaInfo() {
-    return {
-      meta: [
-          // Twitter Card
-          {name: 'twitter:card', content: 'summary'},
-          {name: 'twitter:title', content: 'Vue Social Cards Example'},
-          {name: 'twitter:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'},
-          // image must be an absolute path
-          {name: 'twitter:image', content: this.logo},
-          // Facebook OpenGraph
-          {property: 'og:title', content: 'Vue Social Cards Example'},
-          {property: 'og:site_name', content: 'Vue Example'},
-          {property: 'og:type', content: 'website'},
-          {property: 'og:image', content:  this.logo},
-          {property: 'og:description', content: 'Vue sample site showing off Twitter and Facebook Cards.'}
-      ]
-    }
-  }
+export default{
+    data(){
+        return{
+            testData: 'ASDFTES',
+        }
+    },
+    //insert the following code for vue-meta to work
+    metaInfo() {
+        return {
+            title: `${this.testData} - Epiloge`,
+            meta: [
+                { name: 'description', content: 'DESCRIPTION'},
+                { property: 'og:title', content: 'TITEL'},
+                { property: 'og:site_name', content: 'Epiloge'},
+                { property: 'og:description', content: 'DESCRIPTION2'},
+                {property: 'og:type', content: 'profile'},
+            ]
+        }
+    },
 }
 </script>
 <style>

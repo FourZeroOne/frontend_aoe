@@ -9,10 +9,7 @@ import BasicLayout from './layouts/Basic'
 
 Vue.config.productionTip = false
 
-Vue.use(VueMeta, {
-    // optional pluginOptions
-    refreshOnceOnNavigation: true
-})
+Vue.use(VueMeta)
 
 Vue.component('basic-layout', BasicLayout)
 
